@@ -1,0 +1,1065 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* roboto-100 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/roboto-v30-latin-100.woff2") format("woff2"), url("../fonts/roboto-v30-latin-100.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-300 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto-v30-latin-300.woff2") format("woff2"), url("../fonts/roboto-v30-latin-300.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* forum-regular - latin */
+@font-face {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/forum-v16-latin-regular.woff2") format("woff2"), url("../fonts/forum-v16-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  max-width: 1480px;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.header {
+  background-color: #030303;
+  padding: 60px 0px;
+}
+
+.header__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.site-logo {
+  width: 199px;
+  height: 33px;
+}
+
+.site-logo:hover {
+  opacity: 0.6;
+}
+
+.site-logo:active {
+  opacity: 0.3;
+}
+
+.header__nav {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.header__item ~ .header__item {
+  margin-left: 55px;
+}
+
+.header__link {
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+}
+
+.header__link:active {
+  opacity: 0.3;
+}
+
+.header__button {
+  background-color: transparent;
+  border: none;
+  display: none;
+}
+
+.button-img {
+  width: 32px;
+  height: 18px;
+}
+
+@media only screen and (max-width: 1005px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__button {
+    display: block;
+  }
+
+  .header {
+    padding: 35px 0px;
+  }
+}
+@media only screen and (max-width: 776px) {
+  .site-logo {
+    width: 131px;
+    height: 20px;
+  }
+}
+.hero {
+  background-color: #030303;
+  padding-top: 150px;
+  padding-bottom: 272px;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero__info {
+  max-width: 598px;
+  position: relative;
+  z-index: 5;
+}
+
+.hero__title {
+  margin: 0px;
+  margin-bottom: 25px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero__span {
+  display: block;
+}
+
+.hero__desc {
+  margin: 0px;
+  margin-bottom: 75px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.hero__link {
+  max-width: 356px;
+  display: inline-block;
+  padding: 25px 64px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background-color: #710707;
+  border-radius: 10px;
+}
+
+.hero__link:hover {
+  opacity: 0.6;
+}
+
+.hero__link:active {
+  opacity: 0.3;
+}
+
+.hero__img {
+  position: absolute;
+  z-index: 3;
+  top: -150px;
+  right: 0;
+  width: 1000px;
+  height: 750px;
+}
+
+.hero-tablet {
+  display: none;
+  max-width: 728px;
+  width: 100%;
+  height: 546px;
+}
+
+@media only screen and (max-width: 1401px) {
+  .hero__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .hero__desc {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 1301px) {
+  .hero__img {
+    width: 700px;
+    height: 525px;
+  }
+
+  .hero {
+    padding: 190px 0px;
+    padding-top: 50px;
+  }
+
+  .hero__img {
+    top: -50px;
+  }
+}
+@media only screen and (max-width: 1005px) {
+  .hero__inner {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .hero__info {
+    margin: 0px auto;
+  }
+
+  .hero__link {
+    display: none;
+  }
+
+  .hero {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+
+  .hero-tablet {
+    display: block;
+  }
+
+  .hero__img {
+    display: none;
+  }
+
+  .hero__desc {
+    margin-bottom: 50px;
+  }
+
+  .hero__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 776px) {
+  .hero-tablet {
+    max-width: 380px;
+    width: 100%;
+    height: 285px;
+  }
+
+  .hero__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .hero__desc {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .hero-tablet {
+    max-width: 340px;
+    height: 245px;
+  }
+
+  .hero {
+    padding-bottom: 50px;
+  }
+}
+.tour {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.tour__title {
+  margin: 0px;
+  padding-bottom: 25px;
+  margin-bottom: 103px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  border-bottom: 3px solid #710707;
+}
+
+.tour__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tour__item {
+  max-width: 440px;
+}
+
+.tour__img {
+  width: 440px;
+  height: 285px;
+  margin-bottom: 25px;
+}
+
+.tour__position {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.tour__info {
+  max-width: 300px;
+  padding-top: 10px;
+  border-top: 2px solid #710707;
+}
+
+.tour__virtual {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.tour__net {
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.tour__item:nth-child(1) {
+  margin-bottom: 75px;
+}
+
+.tour__item:nth-child(2) {
+  margin-bottom: 75px;
+}
+
+.tour__item:nth-child(3) {
+  margin-bottom: 75px;
+}
+
+@media only screen and (max-width: 1360px) {
+  .tour__item:nth-child(4) {
+    margin-bottom: 75px;
+  }
+
+  .tour__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+  }
+}
+@media only screen and (max-width: 1005px) {
+  .tour {
+    padding: 40px 0px;
+  }
+
+  .tour__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+  }
+
+  .tour__item {
+    max-width: 280px;
+    width: 100%;
+  }
+
+  .tour__img {
+    max-width: 280px;
+    width: 100%;
+    height: 180px;
+  }
+
+  .tour__position {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .tour__item:nth-child(1) {
+    margin-bottom: 40px;
+  }
+
+  .tour__item:nth-child(2) {
+    margin-bottom: 40px;
+  }
+
+  .tour__item:nth-child(3) {
+    margin-bottom: 40px;
+  }
+
+  .tour__item:nth-child(4) {
+    margin-bottom: 40px;
+  }
+
+  .tour__item:nth-child(5) {
+    margin-bottom: 40px;
+  }
+
+  .tour__item:nth-child(6) {
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 776px) {
+  .tour__item {
+    margin: 0px auto;
+  }
+
+  .tour__position {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .tour__virtual {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .tour__net {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .tour__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+  }
+}
+.picture {
+  padding: 75px 0px;
+  background-color: #030303;
+}
+
+.picture__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.picture__info {
+  max-width: 660px;
+}
+
+.picture__title {
+  margin: 0px;
+  padding-bottom: 25px;
+  margin-bottom: 75px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-bottom: 3px solid #710707;
+}
+
+.picture__desc {
+  margin: 0px;
+  margin-bottom: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.picture__box {
+  position: relative;
+  z-index: 2;
+}
+
+.picture__img {
+  width: 720px;
+  height: 700px;
+}
+
+.picture__bg {
+  width: 39px;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  right: 255px;
+}
+
+@media only screen and (max-width: 1401px) {
+  .picture__inner {
+    flex-direction: column;
+  }
+
+  .picture__info {
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .picture__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .not {
+    display: none;
+  }
+
+  .picture__desc:nth-child(3) {
+    margin-bottom: 62px;
+  }
+
+  .picture__box {
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 1005px) {
+  .picture__desc {
+    display: none;
+  }
+
+  .picture__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 776px) {
+  .picture__img {
+    max-width: 700px;
+    width: 100%;
+    height: 680px;
+  }
+}
+@media only screen and (max-width: 751px) {
+  .picture__img {
+    max-width: 380px;
+    width: 100%;
+    height: 368px;
+  }
+
+  .picture__bg {
+    width: 20px;
+    height: 368px;
+    right: 135px;
+  }
+
+  .picture__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 421px) {
+  .picture__img {
+    max-width: 300px;
+    height: 288px;
+  }
+
+  .picture__bg {
+    width: 17px;
+    height: 288px;
+    right: 37%;
+  }
+}/*# sourceMappingURL=main.css.map */

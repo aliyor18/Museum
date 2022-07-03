@@ -1,0 +1,156 @@
+.picture {
+  padding: 75px 0px;
+  background-color: #030303;
+}
+
+.picture__inner {
+  @include flex;
+}
+
+.picture__info {
+  max-width: 660px;
+}
+
+.picture__title {
+  margin: 0px;
+  padding-bottom: 25px;
+  margin-bottom: 75px;
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-bottom: 3px solid #710707;
+}
+
+.picture__desc {
+  margin: 0px;
+  margin-bottom: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.picture__box {
+  position: relative;
+  z-index: 2;
+}
+
+.picture__img {
+  width: 720px;
+  height: 700px;
+}
+
+.picture__bg {
+  width: 39px;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  right: 255px;
+}
+
+@media only screen and (max-width:1401px) {
+  .picture__inner {
+    flex-direction: column;
+  }
+
+  .picture__info {
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .picture__title {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .not {
+    display: none;
+  }
+
+  .picture__desc:nth-child(3) {
+    margin-bottom: 62px;
+  }
+
+  .picture__box {
+    margin: 0px auto;
+  }
+}
+
+
+@media only screen and (max-width:1005px) {
+  .picture__desc {
+    display: none;
+  }
+
+  .picture__title {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width:776px) {
+  .picture__img {
+    max-width: 700px;
+    width: 100%;
+    height: 680px;
+  }
+}
+
+@media only screen and (max-width:751px) {
+  .picture__img {
+    max-width: 380px;
+    width: 100%;
+    height: 368px;
+  }
+
+  .picture__bg {
+    width: 20px;
+    height: 368px;
+    right: 135px;
+  }
+
+  .picture__title {
+    font-family: 'Forum';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 60px;
+  }
+}
+
+
+@media only screen and (max-width:421px) {
+  .picture__img {
+    max-width: 300px;
+    height: 288px;
+  }
+
+  .picture__bg {
+    width: 17px;
+    height: 288px;
+    right: 37%;
+  }
+}
