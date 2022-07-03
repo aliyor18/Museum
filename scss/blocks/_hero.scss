@@ -149,6 +149,7 @@
 
   .hero-tablet {
     display: block;
+    margin: 0px auto;
   }
 
   .hero__img {
@@ -174,6 +175,7 @@
 
 @media only screen and (max-width:776px) {
   .hero-tablet {
+    margin: 0px auto;
     max-width: 380px;
     width: 100%;
     height: 285px;
