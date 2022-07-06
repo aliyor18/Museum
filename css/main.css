@@ -370,6 +370,22 @@ template {
   src: url("../fonts/forum-v16-latin-regular.woff2") format("woff2"), url("../fonts/forum-v16-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"), url("../fonts/roboto-v30-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 * {
   box-sizing: border-box;
 }
@@ -1063,5 +1079,792 @@ body {
     width: 17px;
     height: 288px;
     right: 37%;
+  }
+}
+.journey__box {
+  padding: 75px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.journey__title {
+  max-width: 610px;
+  width: 100%;
+  margin: 0px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+}
+
+.journey {
+  overflow: hidden;
+}
+
+.journey__info {
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.journey__desc {
+  max-width: 720px;
+  width: 100%;
+}
+
+.journey__iframe {
+  width: 100%;
+  max-width: 1440px;
+  height: 735px;
+}
+
+.journey__list {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 40px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.journey__iframe-mini {
+  max-width: 452px;
+  height: 254px;
+}
+
+.journey__link {
+  padding-top: 40px;
+  padding-bottom: 75px;
+  display: block;
+  text-align: center;
+}
+
+.journey__img {
+  width: 100%;
+  max-width: 200px;
+  height: 12px;
+}
+
+@media only screen and (max-width: 1395px) {
+  .journey__iframe-mini {
+    max-width: 300px;
+    width: 100%;
+    height: 170px;
+  }
+
+  .journey__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+  }
+
+  .journey__info {
+    display: none;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .journey__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+  }
+
+  .mini {
+    display: none;
+  }
+
+  .journey__iframe-mini {
+    max-width: 354px;
+    height: 199px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 716px) {
+  .journey__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+  }
+
+  .journey__iframe-mini {
+    max-width: 180px;
+    height: 101px;
+    width: 100%;
+  }
+
+  .journey__iframe {
+    max-width: 700px;
+    width: 100%;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 401px) {
+  .journey__iframe-mini {
+    max-width: 140px;
+    height: 70px;
+    width: 100%;
+  }
+}
+.art {
+  background-color: #030303;
+}
+
+.art__inner {
+  padding-top: 75px;
+}
+
+.art__title {
+  margin: 0px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.art__imgs {
+  width: 100%;
+  max-width: 1440px;
+  height: 1960px;
+}
+
+@media only screen and (max-width: 1395px) {
+  .art__title {
+    text-align: start;
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+
+  .art__imgs {
+    height: 1272px;
+    max-width: 1004px;
+    width: 100%;
+  }
+
+  .art__inner {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .art__imgs {
+    max-width: 768px;
+    width: 100%;
+    height: 1080px;
+  }
+
+  .art__title {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+@media only screen and (max-width: 701px) {
+  .art__imgs {
+    max-width: 420px;
+    width: 100%;
+    height: 637px;
+  }
+
+  .art__title {
+    margin-bottom: 25px;
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+}
+.tickets {
+  position: relative;
+  padding: 75px 0px;
+  padding-bottom: 475px;
+}
+
+.tickets__bg-img {
+  position: absolute;
+  z-index: 10;
+  top: 70%;
+  left: 0%;
+  min-width: 310px;
+  width: 100%;
+  height: 400px;
+  background-image: url(/img/parallax.png);
+  background-size: cover;
+  background-position: 51% 0%;
+  background-repeat: no-repeat;
+}
+
+.tickets__heading {
+  padding-bottom: 25px;
+  margin: 0px;
+  margin-bottom: 75px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  border-bottom: 4px solid #710707;
+}
+
+.tickets__info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tickets__type {
+  max-width: 270px;
+  width: 100%;
+}
+
+.tickets__info-img {
+  max-width: 720px;
+  width: 100%;
+  height: 550px;
+}
+
+.type {
+  margin: 0px;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.type__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.type__item {
+  position: relative;
+}
+
+.type__desc {
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.checked::before {
+  content: "";
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 15px;
+  background-image: url(/img/checked.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.no-checked {
+  padding-left: 30px;
+}
+
+.no-checked::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 17px;
+  height: 17px;
+  margin-right: 15px;
+  background-image: url(/img/no-checked.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.type__desc:nth-child(1) {
+  margin-bottom: 25px;
+}
+
+.amount {
+  width: 100%;
+  max-width: 176px;
+  text-align: end;
+}
+
+.amount__title {
+  margin: 0px;
+  margin-bottom: 25px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.amount__age {
+  margin: 0px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.age {
+  margin-top: 10px;
+}
+
+.tickets__select {
+  cursor: pointer;
+}
+
+.amount__span {
+  margin-left: auto;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  display: inline-block;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 1.65px;
+  color: #000000;
+}
+
+.amount__link {
+  padding: 10px 38px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 1395px) {
+  .tickets__heading {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+  }
+
+  .tickets__info-img {
+    max-width: 700px;
+    width: 100%;
+    height: 440px;
+  }
+
+  .tickets__type {
+    display: none;
+  }
+
+  .amount {
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .tickets__info-img {
+    max-width: 444px;
+    width: 100%;
+    height: 340px;
+  }
+}
+@media only screen and (max-width: 701px) {
+  .tickets__info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tickets__heading {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+  }
+
+  .amount {
+    text-align: center;
+  }
+
+  .tickets__bg-img {
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 501px) {
+  .tickets__info-img {
+    max-width: 380px;
+    width: 100%;
+    height: 160px;
+  }
+}
+.contacts__inner {
+  padding: 75px 0px;
+}
+
+.contacts__heading {
+  margin: 0px;
+  margin-bottom: 75px;
+  padding-bottom: 25px;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+  border-bottom: 4px solid #710707;
+}
+
+.contacts__box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.contacts__info {
+  max-width: 282px;
+  width: 100%;
+}
+
+.contacts__title {
+  max-width: 227px;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.contacts__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.contacts__link {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.contacts__link:nth-child(1) {
+  margin-bottom: 25px;
+}
+
+.contacts__iframe {
+  max-width: 960px;
+  width: 100%;
+  height: 620px;
+}
+
+@media only screen and (max-width: 1395px) {
+  .contacts__heading {
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+  }
+
+  .contacts__title {
+    max-width: 185px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  .contacts__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+  }
+
+  .contacts__iframe {
+    height: 454px;
+    max-width: 700px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 935px) {
+  .contacts__box {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 701px) {
+  .contacts__inner {
+    padding-top: 0px;
+  }
+
+  .contacts__heading {
+    margin-bottom: 40px;
+    font-family: "Forum";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9d8665;
+  }
+
+  .contacts__title {
+    max-width: 124px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .contacts__link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .contacts__iframe {
+    height: 280px;
+  }
+}
+.footer {
+  position: relative;
+  background-color: #030303;
+  padding-top: 75px;
+  padding-bottom: 50px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.footer__logo {
+  max-width: 195px;
+  width: 100%;
+  height: 50px;
+}
+
+.footer__list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.footer__position {
+  display: inline-block;
+  margin-bottom: 25px;
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.icons {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons__link {
+  padding: 12px;
+  padding-bottom: 16px;
+  margin-left: 25px;
+  border-radius: 50%;
+  border: 1px solid #666666;
+  filter: drop-shadow(0px 0px 0px #666666);
+}
+
+.icons__img {
+  max-width: 24px;
+  width: 100%;
+  height: 24px;
+}
+
+.year {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.year::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  min-width: 320px;
+  width: 100%;
+  top: 240px;
+  left: 0;
+  background-color: #666666;
+}
+
+.year__item {
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.year__school {
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.year__name {
+  margin: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 935px) {
+  .icons {
+    margin-left: auto;
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+
+  .year::before {
+    top: 330px;
+  }
+}
+@media only screen and (max-width: 501px) {
+  .year__school {
+    display: none;
+  }
+
+  .footer__logo-link {
+    max-width: 500px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .icons {
+    max-width: 300px;
+    width: 100%;
+    margin-right: auto;
+  }
+
+  .year::before {
+    top: 380px;
   }
 }/*# sourceMappingURL=main.css.map */
