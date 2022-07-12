@@ -6,10 +6,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -44,12 +42,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -57,10 +52,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -77,13 +70,10 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-  /* 2 */
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -101,10 +91,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -154,14 +142,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -169,8 +153,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -179,8 +162,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -229,18 +211,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -263,10 +239,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -282,10 +256,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -300,10 +272,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -343,48 +313,42 @@ template {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 100;
-  src: url("../fonts/roboto-v30-latin-100.woff2") format("woff2"), url("../fonts/roboto-v30-latin-100.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/roboto-v30-latin-100.woff2") format("woff2"), url("../fonts/roboto-v30-latin-100.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-300 - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/roboto-v30-latin-300.woff2") format("woff2"), url("../fonts/roboto-v30-latin-300.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/roboto-v30-latin-300.woff2") format("woff2"), url("../fonts/roboto-v30-latin-300.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-regular - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* forum-regular - latin */
 @font-face {
   font-family: "Forum";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/forum-v16-latin-regular.woff2") format("woff2"), url("../fonts/forum-v16-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/forum-v16-latin-regular.woff2") format("woff2"), url("../fonts/forum-v16-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-regular - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"), url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-500 - latin */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"), url("../fonts/roboto-v30-latin-500.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"), url("../fonts/roboto-v30-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 * {
   box-sizing: border-box;
@@ -487,11 +451,9 @@ body {
   .header__nav {
     display: none;
   }
-
   .header__button {
     display: block;
   }
-
   .header {
     padding: 35px 0px;
   }
@@ -605,7 +567,6 @@ body {
     text-transform: uppercase;
     color: #ffffff;
   }
-
   .hero__desc {
     font-family: "Roboto";
     font-style: normal;
@@ -621,12 +582,10 @@ body {
     width: 700px;
     height: 525px;
   }
-
   .hero {
     padding: 190px 0px;
     padding-top: 50px;
   }
-
   .hero__img {
     top: -50px;
   }
@@ -636,33 +595,26 @@ body {
     text-align: center;
     flex-direction: column;
   }
-
   .hero__info {
     margin: 0px auto;
   }
-
   .hero__link {
     display: none;
   }
-
   .hero {
     padding-top: 0px;
     padding-bottom: 100px;
   }
-
   .hero-tablet {
     display: block;
     margin: 0px auto;
   }
-
   .hero__img {
     display: none;
   }
-
   .hero__desc {
     margin-bottom: 50px;
   }
-
   .hero__title {
     font-family: "Forum";
     font-style: normal;
@@ -682,7 +634,6 @@ body {
     width: 100%;
     height: 285px;
   }
-
   .hero__title {
     font-family: "Forum";
     font-style: normal;
@@ -694,7 +645,6 @@ body {
     text-transform: uppercase;
     color: #ffffff;
   }
-
   .hero__desc {
     font-family: "Roboto";
     font-style: normal;
@@ -710,7 +660,6 @@ body {
     max-width: 340px;
     height: 245px;
   }
-
   .hero {
     padding-bottom: 50px;
   }
@@ -810,7 +759,6 @@ body {
   .tour__item:nth-child(4) {
     margin-bottom: 75px;
   }
-
   .tour__title {
     font-family: "Forum";
     font-style: normal;
@@ -826,7 +774,6 @@ body {
   .tour {
     padding: 40px 0px;
   }
-
   .tour__title {
     font-family: "Forum";
     font-style: normal;
@@ -837,18 +784,15 @@ body {
     text-transform: uppercase;
     color: #9d8665;
   }
-
   .tour__item {
     max-width: 280px;
     width: 100%;
   }
-
   .tour__img {
     max-width: 280px;
     width: 100%;
     height: 180px;
   }
-
   .tour__position {
     font-family: "Forum";
     font-style: normal;
@@ -859,27 +803,21 @@ body {
     text-transform: uppercase;
     color: #000000;
   }
-
   .tour__item:nth-child(1) {
     margin-bottom: 40px;
   }
-
   .tour__item:nth-child(2) {
     margin-bottom: 40px;
   }
-
   .tour__item:nth-child(3) {
     margin-bottom: 40px;
   }
-
   .tour__item:nth-child(4) {
     margin-bottom: 40px;
   }
-
   .tour__item:nth-child(5) {
     margin-bottom: 40px;
   }
-
   .tour__item:nth-child(6) {
     margin-bottom: 40px;
   }
@@ -888,7 +826,6 @@ body {
   .tour__item {
     margin: 0px auto;
   }
-
   .tour__position {
     font-family: "Forum";
     font-style: normal;
@@ -899,7 +836,6 @@ body {
     text-transform: uppercase;
     color: #000000;
   }
-
   .tour__virtual {
     font-family: "Roboto";
     font-style: normal;
@@ -908,7 +844,6 @@ body {
     line-height: 19px;
     color: #000000;
   }
-
   .tour__net {
     font-family: "Roboto";
     font-style: normal;
@@ -917,7 +852,6 @@ body {
     line-height: 19px;
     color: #000000;
   }
-
   .tour__title {
     font-family: "Forum";
     font-style: normal;
@@ -992,12 +926,10 @@ body {
   .picture__inner {
     flex-direction: column;
   }
-
   .picture__info {
     width: 100%;
     max-width: 1400px;
   }
-
   .picture__title {
     font-family: "Forum";
     font-style: normal;
@@ -1008,15 +940,12 @@ body {
     text-transform: uppercase;
     color: #ffffff;
   }
-
   .not {
     display: none;
   }
-
   .picture__desc:nth-child(3) {
     margin-bottom: 62px;
   }
-
   .picture__box {
     margin: 0px auto;
   }
@@ -1025,7 +954,6 @@ body {
   .picture__desc {
     display: none;
   }
-
   .picture__title {
     font-family: "Forum";
     font-style: normal;
@@ -1050,13 +978,11 @@ body {
     width: 100%;
     height: 368px;
   }
-
   .picture__bg {
     width: 20px;
     height: 368px;
     right: 135px;
   }
-
   .picture__title {
     font-family: "Forum";
     font-style: normal;
@@ -1074,7 +1000,6 @@ body {
     max-width: 300px;
     height: 288px;
   }
-
   .picture__bg {
     width: 17px;
     height: 288px;
@@ -1163,7 +1088,6 @@ body {
     width: 100%;
     height: 170px;
   }
-
   .journey__title {
     font-family: "Forum";
     font-style: normal;
@@ -1174,7 +1098,6 @@ body {
     text-transform: uppercase;
     color: #9D8665;
   }
-
   .journey__info {
     display: none;
   }
@@ -1190,11 +1113,9 @@ body {
     text-transform: uppercase;
     color: #9D8665;
   }
-
   .mini {
     display: none;
   }
-
   .journey__iframe-mini {
     max-width: 354px;
     height: 199px;
@@ -1212,13 +1133,11 @@ body {
     text-transform: uppercase;
     color: #9D8665;
   }
-
   .journey__iframe-mini {
     max-width: 180px;
     height: 101px;
     width: 100%;
   }
-
   .journey__iframe {
     max-width: 700px;
     width: 100%;
@@ -1270,13 +1189,11 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
   }
-
   .art__imgs {
     height: 1272px;
     max-width: 1004px;
     width: 100%;
   }
-
   .art__inner {
     text-align: center;
   }
@@ -1287,7 +1204,6 @@ body {
     width: 100%;
     height: 1080px;
   }
-
   .art__title {
     font-family: "Forum";
     font-style: normal;
@@ -1305,7 +1221,6 @@ body {
     width: 100%;
     height: 637px;
   }
-
   .art__title {
     margin-bottom: 25px;
     font-family: "Forum";
@@ -1513,17 +1428,14 @@ body {
     text-transform: uppercase;
     color: #9d8665;
   }
-
   .tickets__info-img {
     max-width: 700px;
     width: 100%;
     height: 440px;
   }
-
   .tickets__type {
     display: none;
   }
-
   .amount {
     text-align: start;
   }
@@ -1540,7 +1452,6 @@ body {
     flex-direction: column;
     align-items: center;
   }
-
   .tickets__heading {
     font-family: "Forum";
     font-style: normal;
@@ -1551,11 +1462,9 @@ body {
     text-transform: uppercase;
     color: #9d8665;
   }
-
   .amount {
     text-align: center;
   }
-
   .tickets__bg-img {
     height: 300px;
   }
@@ -1648,7 +1557,6 @@ body {
     text-transform: uppercase;
     color: #9d8665;
   }
-
   .contacts__title {
     max-width: 185px;
     font-family: "Roboto";
@@ -1658,7 +1566,6 @@ body {
     line-height: 28px;
     color: #000000;
   }
-
   .contacts__link {
     font-family: "Roboto";
     font-style: normal;
@@ -1667,7 +1574,6 @@ body {
     line-height: 23px;
     color: #000000;
   }
-
   .contacts__iframe {
     height: 454px;
     max-width: 700px;
@@ -1683,7 +1589,6 @@ body {
   .contacts__inner {
     padding-top: 0px;
   }
-
   .contacts__heading {
     margin-bottom: 40px;
     font-family: "Forum";
@@ -1695,7 +1600,6 @@ body {
     text-transform: uppercase;
     color: #9d8665;
   }
-
   .contacts__title {
     max-width: 124px;
     font-family: "Roboto";
@@ -1705,7 +1609,6 @@ body {
     line-height: 19px;
     color: #000000;
   }
-
   .contacts__link {
     font-family: "Roboto";
     font-style: normal;
@@ -1714,7 +1617,6 @@ body {
     line-height: 19px;
     color: #000000;
   }
-
   .contacts__iframe {
     height: 280px;
   }
@@ -1838,11 +1740,9 @@ body {
     max-width: 400px;
     width: 100%;
   }
-
   .footer__inner {
     flex-wrap: wrap;
   }
-
   .year::before {
     top: 330px;
   }
@@ -1851,19 +1751,16 @@ body {
   .year__school {
     display: none;
   }
-
   .footer__logo-link {
     max-width: 500px;
     width: 100%;
     text-align: start;
   }
-
   .icons {
     max-width: 300px;
     width: 100%;
     margin-right: auto;
   }
-
   .year::before {
     top: 380px;
   }
